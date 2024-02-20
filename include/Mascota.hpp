@@ -8,6 +8,10 @@ public:
     ~Mascota() {}//Destructor solo cuando la mascota muere
     void Comer()
         {
-            this->Energia +=1;//Cada vez que come la mascota se le sube la energia
+            this->Energia += 1;//Cada vez que come la mascota se le sube la energia
         }
+    int LeerEnergia()
+        {
+         return this->Energia;
+        }    
 };

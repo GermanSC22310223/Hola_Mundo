@@ -11,7 +11,7 @@ int main (int argc, char const *argv[])
     m1.Comer();
     m2.Comer();
     m3.Comer();
-    
-    cout<<"Hola Mundo"<<"22310223"<<endl;
+
+    cout<<"Mascota"<<m1.LeerEnergia()<<endl;
     return 0;
 }
