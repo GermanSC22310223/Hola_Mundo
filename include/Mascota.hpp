@@ -15,7 +15,7 @@ public:
     ~Mascota() {}//Destructor solo cuando la mascota muere
     void Comer(Alimento alimento)
         {
-            vida +=alimento.ExtraerEnergia();
+            //vida +=alimento.ExtraerEnergia();
             this->Energia += alimento.ExtraerEnergia();//Cada vez que come la mascota se le sube la energia
         }
     int LeerEnergia()
@@ -23,3 +23,4 @@ public:
          return this->Energia;
         }    
 };
+// Clase con el F
