@@ -1,0 +1,29 @@
+@startuml pow
+
+class Pow
+class Juego
+class JuegoPelota
+class Pelota
+class Patineta
+class Comida
+class Ropa
+class KK
+class Higuene
+class Partineta
+class Moneda
+class Medicina
+class Salud
+
+Pow o--Juego
+Juego <|--JuegoPelota
+Pelota --* JuegoPelota
+Partineta <|-- Juego
+Pow *-- Higuene
+Higiene <|-- Salud
+Comida <|-- Salud
+Jabon <|-- Higiene
+KK <|-- Jabon
+
+
+
+@enduml
