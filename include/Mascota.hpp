@@ -3,12 +3,15 @@
 class Mascota
 {
 private:
+    int vida;
     int Felicidad;// Entero el cual es un Objeto
     int Energia;
 public:
-    Mascota() {
-        this->Energia = 0;
-    }//Constructor solo recibe
+    Mascota() 
+        {
+            this->vida = 0;
+            this->Energia = 0;
+        }//Constructor solo recibe
     ~Mascota() {}//Destructor solo cuando la mascota muere
     void Comer(Alimento alimento)
         {
