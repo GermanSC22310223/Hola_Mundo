@@ -1,14 +1,14 @@
 @startuml pow
 
-class Pow 
-(
-    -color
-    -tamaño
-    -porcentajeSalud
-    +Comer()
-    +Cagar()
-    +Duchar()
-)
+class Mascota 
+    (
+        -color
+        -tamaño
+        -porcentajeSalud
+        +Comer()
+        +Cagar()
+        +Duchar()
+    )
 class Juego
 class JuegoPelota
 class Pelota

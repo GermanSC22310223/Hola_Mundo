@@ -20,3 +20,4 @@ int main (int argc, char const *argv[])
 }
 //camelCase=Instancias= Objetos ya creados 
 //PascalCase=Metodos y Clases
+// Usar es Metodo y Tener Atributo
