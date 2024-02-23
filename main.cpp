@@ -18,3 +18,5 @@ int main (int argc, char const *argv[])
     cout<<"Mascota"<<m1.LeerEnergia()<<endl;
     return 0;
 }
+//camelCase=Instancias= Objetos ya creados 
+//PascalCase=Metodos y Clases
