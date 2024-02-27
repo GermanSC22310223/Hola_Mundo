@@ -11,9 +11,7 @@ class Alimento
     + ExtraerEnergia()  
 )
 
-
 Mascota o-- Alimento
 Vida --|> Entero
-
 
 @endluml
